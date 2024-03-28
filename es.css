@@ -1,0 +1,149 @@
+/* estilos del portafolio */
+#body-principal {
+    background-color: #AED6F1;
+}
+
+#Kevin {
+    width: 350px;
+}
+
+
+.cabeza-principal li {
+    list-style-type: none;
+}
+
+.cuerpo-principal {
+    background-color: #5DADE2;
+}
+
+.cuerpo-principal h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cuerpo-principal a img {
+    width: 340px;
+}
+
+.cuerpo-principal p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cabeza-principal,
+.cuerpo-principal,
+.pie-principal {
+    text-align: center;
+    background-color: #5499C7;
+}
+
+/* fin de los estlos del portafolio */
+
+
+/* estilos del blog de alimentacion */
+.cabeza-alimentacion img {
+    width: 500px;
+}
+
+.cabeza-alimentacion li {
+    list-style: none;
+}
+
+.cabeza-alimentacion h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cabeza-alimentacion,
+.cuerpo-alimentacion,
+.pie-alimentacion {
+    text-align: center;
+}
+
+.cabeza-alimentacion,
+.pie-alimentacion {
+    background-color: rgb(255, 210, 147);
+}
+
+.cuerpo-alimentacion section img {
+    width: 450px;
+}
+
+.cuerpo-alimentacion {
+    background-color: bisque;
+}
+
+.cuerpo-alimentacion section {
+    background-color: rgb(221, 200, 173);
+}
+
+/* fin delos estilos del blog de alimentacion */
+
+
+/* estilos de contacto */
+
+#body-contacto {
+    text-align: center;
+    background-color: rgb(226, 242, 255);
+}
+
+.cabeza-contacto li {
+    list-style: none;
+}
+
+.cabeza-contacto,
+.pie-contacto {
+    background-color: aqua;
+}
+
+/* fin de los estilos a contacto */
+
+
+/* estilos del blog de programacion */
+
+#body-programacion {
+    background-color: rgb(123, 233, 196);
+    text-align: center;
+}
+
+.cabeza-programacion img {
+    width: 450px;
+}
+
+.cabeza-programacion li {
+    list-style: none;
+}
+
+.cabeza-programacion h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.pie-programacion,
+.cuerpo-programacion {
+    background-color: rgb(68, 192, 151);
+}
+
+/* fin de los etilos del blog de programacion */
+
+
+/* estilos del blog de memes */
+
+#body-memes {
+    background-color: rgba(236, 244, 250, 0.966);
+    text-align: center;
+}
+
+.cabeza-memes li {
+    list-style: none;
+}
+
+.cabeza-memes h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.pie-memes {
+    background-color: rgba(227, 230, 233, 0.918);
+}
+
+.cuerpo-memes img {
+    width: 400px;
+}
+
+/* fin de los estilos del blog de memes */
