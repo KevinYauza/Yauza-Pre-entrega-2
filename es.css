@@ -1,18 +1,40 @@
 /* estilos del portafolio */
-#body-principal {
-    background-color: #AED6F1;
+
+.row {
+    padding-bottom: 1.5em;
+    background-color: aqua;
+}
+
+#roww {
+    margin-right: 0;
+    margin-left: 0;
 }
 
 #Kevin {
-    width: 350px;
+    height: 100%;
 }
 
+.KevinYauza {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 1em;
+}
+
+.cabeza-principal {
+    margin-bottom: 1.5em;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
 
 .cabeza-principal li {
     list-style-type: none;
 }
 
 .cuerpo-principal {
+    margin: 10px 0;
+    text-align: center;
     background-color: #5DADE2;
 }
 
@@ -21,7 +43,7 @@
 }
 
 .cuerpo-principal a img {
-    width: 340px;
+    width: 350px;
 }
 
 .cuerpo-principal p {
@@ -29,7 +51,6 @@
 }
 
 .cabeza-principal,
-.cuerpo-principal,
 .pie-principal {
     text-align: center;
     background-color: #5499C7;
@@ -103,7 +124,7 @@
     text-align: center;
 }
 
-.cabeza-programacion img {
+.img-pro {
     width: 450px;
 }
 
@@ -111,14 +132,27 @@
     list-style: none;
 }
 
+main h2 {
+    text-align: center;
+}
+
 .cabeza-programacion h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .pie-programacion,
-.cuerpo-programacion {
+.cabeza-programacion {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
     background-color: rgb(68, 192, 151);
+    text-align: center;
 }
+
+/* cuerpo-programacion img {
+    width: 300px;
+} */
 
 /* fin de los etilos del blog de programacion */
 
@@ -147,3 +181,22 @@
 }
 
 /* fin de los estilos del blog de memes */
+
+/* media */
+@media only screen and (max-width: 500px) {
+    .img-pro {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+
+    .cabeza-principal {
+        flex-wrap: wrap;
+    }
+
+    #Kevin {
+        margin-top: 20px;
+        height: 100px;
+    }
+}
